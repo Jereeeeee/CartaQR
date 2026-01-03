@@ -484,8 +484,27 @@ function displayError() {
     `;
 }
 
+// Función para actualizar el versículo a medianoche
+function setupVersiculoAutoUpdate() {
+    renderFooterVersiculo(); // Mostrar versículo inicial
+    
+    // Calcular tiempo hasta medianoche
+    const ahora = new Date();
+    const medianoche = new Date();
+    medianoche.setHours(24, 0, 0, 0); // Próxima medianoche
+    
+    const tiempoHastaMedianoche = medianoche - ahora;
+    
+    // Actualizar a medianoche
+    setTimeout(() => {
+        renderFooterVersiculo(); // Actualizar versículo
+        // Luego actualizar cada 24 horas
+        setInterval(renderFooterVersiculo, 24 * 60 * 60 * 1000);
+    }, tiempoHastaMedianoche);
+}
+
 // Cargar el menú y el versículo cuando la página esté lista
 document.addEventListener('DOMContentLoaded', () => {
     loadMenu();
-    renderFooterVersiculo();
+    setupVersiculoAutoUpdate();
 });
