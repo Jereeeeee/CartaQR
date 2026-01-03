@@ -1,0 +1,93 @@
+{
+    "restaurantName": "Pancito De Vida",
+    "categories": [
+        {
+            "name": "Desayunos",
+            "description": "Comienza tu día con bendición",
+            "items": [
+                {
+                    "name": "Desayuno Bendición",
+                    "description": "Huevos al gusto, frijoles, queso, crema, plátano y tortillas",
+                    "price": 85.00,
+                    "tag": "Recomendado"
+                },
+                {
+                    "name": "Pan Francés",
+                    "description": "Pan francés con miel, mantequilla y fruta fresca",
+                    "price": 65.00
+                },
+                {
+                    "name": "Molletes Especiales",
+                    "description": "Pan con frijoles, queso gratinado y pico de gallo",
+                    "price": 55.00
+                }
+            ]
+        },
+        {
+            "name": "Platos Fuertes",
+            "description": "Alimento para el cuerpo y el alma",
+            "items": [
+                {
+                    "name": "Pollo a la Plancha",
+                    "description": "Pechuga de pollo con ensalada, arroz y frijoles",
+                    "price": 120.00
+                },
+                {
+                    "name": "Carne Asada",
+                    "description": "Carne de res con guarniciones y tortillas hechas a mano",
+                    "price": 150.00,
+                    "tag": "Especial"
+                },
+                {
+                    "name": "Enchiladas del Señor",
+                    "description": "Enchiladas verdes o rojas con pollo, crema y queso",
+                    "price": 95.00
+                }
+            ]
+        },
+        {
+            "name": "Bebidas",
+            "description": "Refréscate con lo mejor",
+            "items": [
+                {
+                    "name": "Agua de Frutas",
+                    "description": "Jamaica, horchata, tamarindo o limón",
+                    "price": 25.00
+                },
+                {
+                    "name": "Café de Olla",
+                    "description": "Café tradicional con canela y piloncillo",
+                    "price": 30.00,
+                    "tag": "Casero"
+                },
+                {
+                    "name": "Jugos Naturales",
+                    "description": "Naranja, zanahoria, o mixto",
+                    "price": 35.00
+                }
+            ]
+        },
+        {
+            "name": "Postres",
+            "description": "Dulce final para tu comida",
+            "items": [
+                {
+                    "name": "Pan Dulce del Día",
+                    "description": "Variedad de pan recién horneado",
+                    "price": 15.00
+                },
+                {
+                    "name": "Flan Napolitano",
+                    "description": "Flan casero con caramelo",
+                    "price": 45.00
+                },
+                {
+                    "name": "Pastel Tres Leches",
+                    "description": "Esponjoso pastel bañado en tres leches",
+                    "price": 50.00,
+                    "tag": "Del Chef"
+                }
+            ]
+        }
+    ]
+}
