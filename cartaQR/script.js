@@ -468,7 +468,11 @@ function displayMenu(menuData) {
 // Formatear precio
 function formatPrice(price) {
     if (typeof price === 'number') {
-        return `$${price.toFixed(2)}`;
+        const formatted = new Intl.NumberFormat('es-CL', {
+            minimumFractionDigits: 0,
+            maximumFractionDigits: 0
+        }).format(price);
+        return `$${formatted}`;
     }
     return price;
 }
